@@ -16,8 +16,13 @@ public class PruebaPractica {
             System.out.println("Opción 3: " + pelo3);
             System.out.println("Opción 4: " + pelo4);
 
-            System.out.print("Seleccione la opción: ");
+            System.out.print("Seleccione la opción de pelo: ");
             String opcionPelo = scanner.nextLine();
+
+            while (opcionPelo.isEmpty()) {
+                System.out.print("Seleccione la opción de pelo: ");
+                opcionPelo = scanner.nextLine();
+            }
 
             String ojos1 = "|  o o  |";
             String ojos2 = "|-(· ·)-|";
@@ -29,8 +34,12 @@ public class PruebaPractica {
             System.out.println("Opción 3: " + ojos3);
             System.out.println("Opción 4: " + ojos4);
 
-            System.out.print("Seleccione la opción: ");
+            System.out.print("Seleccione la opción de ojos: ");
             String opcionOjos = scanner.nextLine();
+            while (opcionOjos.isEmpty()) {
+                System.out.print("Seleccione la opción de ojos: ");
+                opcionOjos = scanner.nextLine();
+            }
 
             String orejas_nariz1 = "@   J   @";
             String orejas_nariz2 = "{   \"   }";
@@ -42,9 +51,12 @@ public class PruebaPractica {
             System.out.println("Opción 3: " + orejas_nariz3);
             System.out.println("Opción 4: " + orejas_nariz4);
 
-            System.out.print("Seleccione la opción: ");
+            System.out.print("Seleccione la opción de orejas/nariz: ");
             String opcionOrejasNariz = scanner.nextLine();
-
+            while (opcionOrejasNariz.isEmpty()) {
+                System.out.print("Seleccione la opción de orejas/nariz: ");
+                opcionOrejasNariz = scanner.nextLine();
+            }
 
             String boca1 = "|  ===  |";
             String boca2 = "|   -   |";
@@ -56,8 +68,12 @@ public class PruebaPractica {
             System.out.println("Opción 3: " + boca3);
             System.out.println("Opción 4: " + boca4);
 
-            System.out.print("Seleccione la opción: ");
+            System.out.print("Seleccione la opción de boca: ");
             String opcionBoca = scanner.nextLine();
+            while (opcionBoca.isEmpty()) {
+                System.out.print("Seleccione la opción de boca: ");
+                opcionBoca = scanner.nextLine();
+            }
 
             String barbilla1 = "\\_______/";
             String barbilla2 = "\\,,,,,,,/";
@@ -69,9 +85,12 @@ public class PruebaPractica {
             System.out.println("Opción 3: " + barbilla3);
             System.out.println("Opción 4: " + barbilla4);
 
-            System.out.print("Seleccione la opción: ");
+            System.out.print("Seleccione la opción de barbilla: ");
             String opcionBarbilla = scanner.nextLine();
-
+            while (opcionBarbilla.isEmpty()) {
+                System.out.print("Seleccione la opción de barbilla: ");
+                opcionBarbilla = scanner.nextLine();
+            }
 
             System.out.println(opcionPelo);
             System.out.println(opcionOjos);
