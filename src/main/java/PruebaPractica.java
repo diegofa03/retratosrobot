@@ -98,54 +98,79 @@ public class PruebaPractica {
             System.out.println(opcionBoca);
             System.out.println(opcionBarbilla);
 
-            if (opcionPelo.equals("1")) {
-                System.out.println(pelo1);
-            } else if (opcionPelo.equals("2")) {
-                System.out.println(pelo2);
-            } else if (opcionPelo.equals("3")) {
-                System.out.println(pelo3);
-            } else if (opcionPelo.equals("4")) {
-                System.out.println(pelo4);
+            switch (opcionPelo) {
+                case "1":
+                    System.out.println(pelo1);
+                    break;
+                case "2":
+                    System.out.println(pelo2);
+                    break;
+                case "3":
+                    System.out.println(pelo3);
+                    break;
+                case "4":
+                    System.out.println(pelo4);
+                    break;
             }
 
-            if (opcionOjos.equals("1")) {
-                System.out.println(ojos1);
-            } else if (opcionOjos.equals("2")) {
-                System.out.println(ojos2);
-            } else if (opcionOjos.equals("3")) {
-                System.out.println(ojos3);
-            } else if (opcionOjos.equals("4")) {
-                System.out.println(ojos4);
+            switch (opcionOjos) {
+                case "1":
+                    System.out.println(ojos1);
+                    break;
+                case "2":
+                    System.out.println(ojos2);
+                    break;
+                case "3":
+                    System.out.println(ojos3);
+                    break;
+                case "4":
+                    System.out.println(ojos4);
+                    break;
             }
 
-            if (opcionOrejasNariz.equals("1")) {
-                System.out.println(orejas_nariz1);
-            } else if (opcionOrejasNariz.equals("2")) {
-                System.out.println(orejas_nariz2);
-            } else if (opcionOrejasNariz.equals("3")) {
-                System.out.println(orejas_nariz3);
-            } else if (opcionOrejasNariz.equals("4")) {
-                System.out.println(orejas_nariz4);
+            switch (opcionOrejasNariz) {
+                case "1":
+                    System.out.println(orejas_nariz1);
+                    break;
+                case "2":
+                    System.out.println(orejas_nariz2);
+                    break;
+                case "3":
+                    System.out.println(orejas_nariz3);
+                    break;
+                case "4":
+                    System.out.println(orejas_nariz4);
+                    break;
             }
 
-            if (opcionBoca.equals("1")) {
-                System.out.println(boca1);
-            } else if (opcionBoca.equals("2")) {
-                System.out.println(boca2);
-            } else if (opcionBoca.equals("3")) {
-                System.out.println(boca3);
-            } else if (opcionBoca.equals("4")) {
-                System.out.println(boca4);
+            switch (opcionBoca) {
+                case "1":
+                    System.out.println(boca1);
+                    break;
+                case "2":
+                    System.out.println(boca2);
+                    break;
+                case "3":
+                    System.out.println(boca3);
+                    break;
+                case "4":
+                    System.out.println(boca4);
+                    break;
             }
 
-            if (opcionBarbilla.equals("1")) {
-                System.out.println(barbilla1);
-            } else if (opcionBarbilla.equals("2")) {
-                System.out.println(barbilla2);
-            } else if (opcionBarbilla.equals("3")) {
-                System.out.println(barbilla3);
-            } else if (opcionBarbilla.equals("4")) {
-                System.out.println(barbilla4);
+            switch (opcionBarbilla) {
+                case "1":
+                    System.out.println(barbilla1);
+                    break;
+                case "2":
+                    System.out.println(barbilla2);
+                    break;
+                case "3":
+                    System.out.println(barbilla3);
+                    break;
+                case "4":
+                    System.out.println(barbilla4);
+                    break;
             }
 
             System.out.println("Quiere realizar otro retrato?(1 = si, 2 = no): ");
@@ -155,7 +180,7 @@ public class PruebaPractica {
             } else if (decision.equals("2")) {
                 reinicio = false;
             }
-        } while (reinicio == true);
+        } while (reinicio);
     }
 
 }
